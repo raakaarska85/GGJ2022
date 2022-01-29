@@ -91,7 +91,7 @@ public class BulletSpawner : MonoBehaviour
 
             //ofset be here jos sen tekee
             bullet.transform.position = this.transform.position;
-            bulletdata.rotation = spread[i] + rotation +gameObject.transform.rotation.eulerAngles.z;
+            bulletdata.rotation = spread[i] + rotation +gameObject.transform.rotation.eulerAngles.y;
             bulletdata.speed = bulletSpeed;
         }
     }

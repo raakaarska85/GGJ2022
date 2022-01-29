@@ -58,3 +58,6 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+*.meta
+FGJ 2022/desktop-tutorial/
+FGJ 2022/gamejamtesti/
